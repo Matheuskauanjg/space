@@ -17,7 +17,9 @@
 }
 
 .shooter {
-	background-color: green;
+    background-image: url('nave.png'); /* Imagem da nave */
+    background-size: cover;
+    background-position: center;
 }
 
 .laser {
