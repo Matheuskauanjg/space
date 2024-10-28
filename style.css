@@ -12,8 +12,9 @@
 }
 
 .invader {
-	background-color: purple;
-	border-radius: 10px;
+    background-image: url('invader.png'); /* Substitua pela sua imagem */
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .shooter {
