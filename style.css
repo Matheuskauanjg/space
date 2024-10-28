@@ -27,7 +27,9 @@
 }
 
 .laser {
-	background-color: orange;
+	background-image: url('laser.png'); /* Imagem da nave */
+    background-size: cover;
+    background-position: center;
 }
 
 .boom {
