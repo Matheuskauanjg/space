@@ -5,6 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
+    background-color: black; /* Fundo da grade */
+    position: relative; /* Para posicionar estrelas absolutas */
+    overflow: hidden;
 }
 
 .grid div {
@@ -35,4 +38,21 @@
 
 .boom {
     background-color: red;
+}
+
+/* Estilos para as estrelas piscando */
+.star {
+    width: 9px;
+    height: 9px;
+    background-image: url('estre.png');
+    background-size: cover;
+    position: absolute;
+    animation: twinkle 1.5s infinite;
+    opacity: 0.8;
+}
+
+/* Animação do piscar */
+@keyframes twinkle {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
 }
