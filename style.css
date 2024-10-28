@@ -27,7 +27,7 @@
 }
 
 .laser {
-	background-image: url('laser.png'); /* Imagem da nave */
+	background-image: url('laser.png'); /* Imagem do laser */
     background-size: cover;
     background-position: center;
 }
