@@ -7,8 +7,8 @@
 }
 
 .grid div {
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
 }
 
 .invader {
@@ -17,9 +17,12 @@
 }
 
 .shooter {
-    background-image: url('nave.png'); /* Imagem da nave */
-    background-size: cover;
+    width: 40px;
+    height: 40px;
+    background-image: url('nave.png');
+    background-size: contain; /* Mantém a proporção da imagem */
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .laser {
