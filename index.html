@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Invaders</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
-    <h1 class="results">0</h1>
-    <div class="grid"></div>
+    <div class="container">
+        <h1>Space Invaders</h1>
+        <div class="grid"></div>
+        <div class="results">Score: 0</div>
+        <button onclick="location.reload()">Restart Game</button>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,37 +1,51 @@
-.grid {
-	width: 300px;
-	height: 300px;
-	border: solid black 1px;
-	display: flex;
-	flex-wrap: wrap;
+/* Estilos gerais da página */
+body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.grid div {
-	width: 20px;
-	height: 20px;
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
 }
 
-.invader {
-    background-image: url('invader.png'); /* Substitua pela sua imagem */
-    background-size: cover;
-    border-radius: 10px;
+.results {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
 
-.shooter {
-    width: 40px;
-    height: 40px;
-    background-image: url('nave.png');
-    background-size: contain; /* Mantém a proporção da imagem */
-    background-position: center;
-    background-repeat: no-repeat;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.laser {
-	background-image: url('laser.png'); /* Imagem do laser */
-    background-size: cover;
-    background-position: center;
+/* Botão para melhorar a estética */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.boom {
-	background-color: red;
+button:hover {
+    background-color: #45a049;
 }
