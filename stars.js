@@ -1,15 +1,19 @@
-// Função para gerar estrelas e posicioná-las aleatoriamente
+// Função para criar estrelas na tela e adicionar piscamento aleatório
 function createStars(numStars) {
     const grid = document.querySelector(".grid");
 
     for (let i = 0; i < numStars; i++) {
         const star = document.createElement("div");
         star.classList.add("star");
-        star.style.top = Math.random() * 300 + "px"; // Aleatório na altura da grid
-        star.style.left = Math.random() * 300 + "px"; // Aleatório na largura da grid
+
+        // Posicionamento aleatório
+        star.style.top = Math.random() * 300 + "px";
+        star.style.left = Math.random() * 300 + "px";
+
+        // Adiciona a estrela na grade
         grid.appendChild(star);
     }
 }
 
-// Chamar a função para criar 50 estrelas
-createStars(50);
+// Chama a função para criar 100 estrelas
+createStars(100);
